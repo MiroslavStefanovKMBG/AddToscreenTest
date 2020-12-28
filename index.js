@@ -26,6 +26,7 @@ const addBtn = document.querySelector('.add-button');
 addBtn.style.display = 'block';
 
 window.addEventListener('beforeinstallprompt', (e) => {
+  alert(1);
   // Prevent Chrome 67 and earlier from automatically showing the prompt
   e.preventDefault();
   // Stash the event so it can be triggered later.
